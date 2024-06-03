@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Login Page</title>
+    <link rel = "stylesheet" href = "signing.css">
+
+</head>
+<body>
+
+    <header>
+        <div style = "margin-left:40px;">
+        <div><img src = "logo.svg" width = 200px alt = "Image Incompatible"></div>
+        </div>
+        <div>
+            <button class = "button" onclick="signUp()">Sign Up</button>
+        </div>
+    </header>
+
+    
+    <div id = "form">
+        <h1>Welcome Back, dear Friend!</h1>
+        <p style = "font-size:x-large;">Enter your login details to resume the journey with us!</p>
+        <!-- Sign Up Form -->
+        <form action="#" method="post"> <!-- Update the 'action' attribute with your server-side script -->
+            <h1>Login to you Account</h1>
+            <!-- Include your form fields (e.g., username, email, password) -->
+            <input class = "holder" type="email" placeholder="Email" name="email" required><br><br>
+            <input class = "holder" type="password" placeholder="Password" name="password" required>
+            <br><br>
+            <a href = "forgotPassword">Forgot Password?</a>
+            <button type="submit">Login</button>
+        </form>
+    
+    
+</div>
+
+<script>
+    function signUp() {
+
+        window.location.href = "Signup_Page.html";
+    }
+</script>>
+
+</body>
+</html>
