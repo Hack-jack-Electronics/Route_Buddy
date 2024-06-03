@@ -11,7 +11,7 @@ Welcome to Route Buddy! This repository contains the source code for the Route B
 - [Usage](#usage)
 - [Shepherd.js Tour](#shepherdjs-tour)
 - [Contributing](#contributing)
-- [License](#license)
+- [Demo Video](#demo-video)
 
 ## Introduction
 
@@ -64,3 +64,6 @@ We welcome contributions to Route Buddy! Please follow these steps to contribute
 - bash
 ```git push origin feature-branch```
 6. Open a pull request.
+
+### Demo Video
+Please click [here](https://youtu.be/brZm2sYg4-s) to launch the demo video.
