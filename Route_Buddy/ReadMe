@@ -1,0 +1,74 @@
+# GeoMap Application
+
+This application allows users to input addresses, geocode them using Mapbox API, and visualize the results on a map.
+
+## Project Overview
+
+The GeoMap Application is a web-based tool designed to simplify the process of geocoding addresses and visualizing them on a map. Geocoding is the process of converting addresses into geographic coordinates (latitude and longitude), and this application leverages the Mapbox Geocoding API for this purpose.
+
+## Features
+
+- **Address Input:** Users can input addresses via a user-friendly interface.
+- **Dynamic Address Addition:** Click "Add Another Address" to dynamically add more address input fields.
+- **Geocoding:** Utilizes the Mapbox Geocoding API to convert addresses into coordinates.
+- **Map Visualization:** Displays geocoded addresses on an interactive map.
+- **Distance Calculation:** Calculates and logs the distance between consecutive addresses.
+
+## How It Works
+
+1. Users input addresses on the main page (`Input_Page.html`).
+2. The application geocodes the addresses using the Mapbox Geocoding API.
+3. Geocoded data is stored in MongoDB for future use.
+4. Users are redirected to `second-page.html` to visualize geocoded addresses on a map.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/geomap-application.git
+   cd geomap-application
+
+
+Install Dependencies:
+
+bash
+Copy code
+npm install
+Start the Application:
+
+bash
+Copy code
+npm start
+Open the Application in Your Browser:
+Navigate to http://localhost:3000 in your web browser.
+
+Log In:
+
+Enter your credentials to log in.
+Usage
+Enter Addresses:
+
+Input addresses in the provided text fields on the main page (index.html).
+Click "Add Another Address" to dynamically add more address input fields.
+Get Map Polygon:
+
+After entering addresses, click the "Submit Addresses" button to geocode them and store the data.
+Distance Calculation:
+
+The application calculates and logs the distance between consecutive addresses.
+Cumulative distance and motorable paths are displayed on the map on the second-page.html.
+Logout:
+
+Click the "Logout" button to log out from the application.
+
+
+License
+
+This update includes information on logging in, entering addresses, getting a map polygon, calculating distances, and logging out. Feel free to adjust the details based on the actual functionalities of your application.
